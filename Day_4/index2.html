@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form action="#">
+        <label for="Name">UserName:</label>
+        <input type="text" name="Name" id="Name">
+        <br>
+        <label for="Password">Password:</label>
+        <input type="password" name="Password" id="Password">
+        <br>
+        <label for="mail">Email</label>
+        <input type="email" name="mail" id="mail">
+        <br>
+        <label for="No">Number</label>
+        <input type="number" name="No" id="No" min="1" max="100">
+        <br>
+        <label for="Date">Date</label>
+        <input type="date" name="Date" id="Date">
+        <br>
+        <label for="time">Time</label>
+        <input type="time" name="time" id="time">
+        <br>
+        <label for="color">Colour</label>
+        <input type="color" name="color" id="color">
+        <br>
+        <label for="Sub">Subscribe</label>
+        <input type="checkbox" name="Sub" id="Sub">
+        <br>
+        <!--radio-->
+        <label for="gender">Gender</label>
+        <br>
+        <input type="radio" name="male" id="male" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" name="Female" id="Female" value="Fe_Male">
+        <label for="Female">Fe_Male</label>
+        <br>
+
+        <label for="DropDown">Countries</label>
+        <select name="Dp" id="Dp">
+            <option value="">--Select--</option>
+            <option value="India">India</option>
+            <option value="US">US</option>
+            <option value="UK">UK</option>
+            <option value="Canada">Canada</option>
+        </select>
+        <br>
+        <br>
+        <!--Text area-->
+        <label for="Textarea">Descripition</label>
+        <textarea name="txt" id="txt" rows="5" cols="20">
+        </textarea>
+
+        <br>
+
+        <!--File Input-->
+        <label for="file">File</label>
+        <input type="file" name="file" id="file">
+        <br>
+        <!--Range Input-->
+        <label for="Range">Range</label>
+        <input type="range" name="Range" id="Range">
+        <br>
+        <!--URL Input-->
+        <label for="url">URL</label>
+        <input type="url" name="url" id="url">
+        <br>
+        <br>
+         <!-- Sunmit-->
+        <input type="button" value="Submit">
+        
+<input type="reset" value="Reset">
+
+
+        <br>
+
+    </form>
+</body>
+
+</html>
