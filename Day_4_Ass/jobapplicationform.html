@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+
+<body>
+<center>
+    <h2>Job Application</h2>
+    <h4>Please complete the form below to apply for a position with us.</h4>
+    </center>
+    <hr>
+<ol>
+    <!--Input Tags For Text-->
+    <label for="FN">First Name: </label>
+    <input type="text" name="FN" id="FN">
+
+    <label for="LN">Last Name: </label>
+    <input type="text" name="LN" id="LN">
+    <br>
+    <br>
+
+    <!--Radio Button For Gender-->
+
+    <label for="Gender">Gender : </label>
+    <input type="radio" value="Male" name="gender" id="Male">
+    <label for="Male">Male</label>
+
+    <input type="radio" value="Female" name="gender" id="FeMale">
+    <label for="FeMale">Female</label>
+
+    <br><br>
+
+    <!--For The Date Of Birth-->
+    <label for="DOB">Date of Birth</label>
+    <select name="DOB" id="Day">
+        <option value="Day">--Day--</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+    </select>
+
+    <select name="DOB" id="Month">
+        <option value="Month">--Month--</option>
+        <option value="Jan">Jan</option>
+        <option value="Feb">Feb</option>
+        <option value="Mar">Mar</option>
+        <option value="Apr">Apr</option>
+        <option value="May">May</option>
+    </select>
+
+    <select name="DOB" id="Year">
+        <option value="Select">--Year--</option>
+        <option value="2001">2001</option>
+        <option value="2002">2002</option>
+        <option value="2003">2003</option>
+        <option value="2004">2004</option>
+        <option value="2005">2005</option>
+    </select>
+
+    <br>
+    <br>
+
+    <label for="CAdd">Current Address</label>
+    <br>
+    <input type="text" name="CAdd" id="Address">
+
+    <br>
+    <br>
+
+    <label for="SAdd">Street Address</label>
+    <input type="text" name="SAdd" id="Address1">
+
+
+    <label for="SAdd2">Street Address Line_2</label>
+    <input type="text" name="SAdd2" id="Address2">
+    <br>
+    <br>
+    <label for="state">State</label>
+    <input type="text" name="state" id="state">
+
+    <label for="city">City</label>
+    <input type="text" name="city" id="ct">
+
+    <label for="pin">PinCode</label>
+    <input type="text" name="Pin" id="code">
+    <br>
+    <br>
+    <label for="Email">Email Address</label>
+    <input type="email" name="Email" id="Em">
+
+    <label for="phoneno">Mobile No</label>
+    <input type="text" name="phoneno" id="no">
+
+    <br>
+    <br>
+
+    <label for="Link">LinkedIn</label>
+    <br>
+    <input type="text" name="Link" id="in">
+
+    <hr>
+
+    <label for="Pa">Position Applied</label> &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;
+    <label for="about">How did you hear about us</label>
+    <br>
+
+    <select name="pa" id="pa">
+        <option value="Please Select">--Please Select--</option>
+        <option value="FED">Front End Developer</option>
+        <option value="PY">Python Developer</option>
+        <option value="Mern">MERN Developer</option>
+        <option value="AWS">AWS </option>
+        <option value="Java">Java Developer</option>
+        <option value="Others">Others </option>
+    </select> &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+
+    <select name="about" id="aboutwhere">
+        <option value="Please Select">--Please Select--</option>
+        <option value="Social Media">Social Media</option>
+        <option value="Family&Friends">Family&Friends</option>
+        <option value="LinkedIn">LinkedIn</option>
+        <option value="Others">Others </option>
+    </select>
+    <br>
+    <br>
+    <label for="Upload">Upload Your Resume</label>
+    <br>
+    <input type="file" name="Upload" id="UD">
+
+    <br>
+    <br>
+    <label for="CL">Cover Letter</label>
+    <textarea name="CL" id="letter" rows="5" cols="50"></textarea>
+    <br>
+    <br>
+
+    <button id="btn">Apply</button>
+</ol>
+</body>
+
+</html>
