@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex_Direction</title>
+    <style>
+
+        .row-reverse
+        {
+            display: flex;
+            background-color: lightcyan;
+            flex-direction: row-reverse;
+            border: 5px solid black;
+        }
+        .row-reverse>div
+        {
+            padding: 20px;
+            margin: 15px;
+            background-color: blue;
+            border: 2px dashed orange;
+        }
+
+
+         .column
+        {
+            display: flex;
+            background-color: lightgoldenrodyellow;
+            flex-direction: column;
+            border: 5px solid black;
+        }
+        .column>div
+        {
+            padding: 20px;
+            margin: 15px;
+            background-color: gray;
+            border: 2px dashed wheat;
+        }
+
+           .column-reverse
+        {
+            display: flex;
+            background-color: lightskyblue;
+            flex-direction: column-reverse;
+            border: 5px solid black;
+        }
+        .column-reverse>div
+        {
+            padding: 20px;
+            margin: 15px;
+            background-color: green;
+            border: 2px dashed orchid;
+        }
+
+
+    </style>
+</head>
+<body>
+<!-- row/column/row-reverse/column-reverse -->
+
+<div class="row-reverse">
+    <div>One</div>
+    <div>Two</div>
+    <div>Three</div>
+</div>
+
+<br><br>
+
+<div class="column">
+    <div>One</div>
+    <div>Two</div>
+    <div>Three</div>
+</div>
+
+<br><br>
+<div class="column-reverse">
+    <div>One</div>
+    <div>Two</div>
+    <div>Three</div>
+</div>
+    
+</body>
+</html>
