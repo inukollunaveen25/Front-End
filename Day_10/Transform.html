@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Transform</title>
+  <style>
+    .box {
+      background-color: bisque;
+      width: 250px;
+      height: 250px;
+      margin: 70px;
+      transition: transform 1s ease , background-color 1s ease;
+    }
+    .box.translate:hover
+    {
+        background-color: greenyellow;
+        transform: translate(50px,20px);
+    }
+    .box.scale:hover
+    {
+        background-color: yellow;
+        transform: scale(1.2);
+    }
+    .box.skew:hover
+    {
+        background-color: brown;
+        transform: skew(15deg,5deg);
+    }
+
+     .box.rotate:hover
+    {
+        background-color: skyblue;
+        transform: rotate(45deg);
+    }
+
+  </style>
+</head>
+<body>
+
+  <div class="box translate">Translate</div>
+  <br />
+  <div class="box scale">Scale</div>
+  <br />
+  <div class="box skew">Skew</div>
+  <br />
+  <div class="box rotate">Rotate</div>
+
+</body>
+</html>

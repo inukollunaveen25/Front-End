@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition_Time_Functions_Assignment</title>
+    <style>
+        .box
+        {
+            width: 250px;
+            height: 250px;
+            background-color: aqua;
+            color: white;
+            margin: 50px;
+            font-size: xx-large;
+        }
+
+        .box.ease:hover
+        {
+            width: 500px;
+            transition: width 1s ease;
+        }
+
+        .box.linear:hover
+        {
+            width: 500px;
+            transition: width 1s linear;
+        }
+
+         .box.easein:hover
+        {
+            width: 500px;
+            transition: width 1s ease-in;
+        }
+         .box.easeout:hover
+        {
+            width: 500px;
+            transition: width 1s ease-out;
+        }
+         .box.easeinout:hover
+        {
+            width: 500px;
+            transition: width 1s ease-in-out;
+        }
+
+    </style>
+</head>
+<body>
+<div class="box ease">Ease</div>
+<br>
+<div class="box linear">Linear</div>
+<br>
+<div class="box easein">Ease_In</div>
+<br>
+<div class="box easeout">Ease_Out</div>
+<br>
+<div class="box easeinout">Ease_In_Out</div>
+</body>
+</html>
